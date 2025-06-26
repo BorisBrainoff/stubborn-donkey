@@ -15,6 +15,25 @@ export default function HomePage() {
         <h1 className="text-5xl md:text-7xl font-semibold text-white drop-shadow-md">
           Stationary Light Cosmology
         </h1>
+        <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center">
+  <a
+    href="https://www.wolframcloud.com/obj/substitutematerials/Published/SL%20cosmocalc%20web%202.nb"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white text-black px-6 py-2 rounded hover:bg-gray-100 transition"
+  >
+    Calculator
+  </a>
+  <a
+    href="https://www.overleaf.com/read/nnzgyzvtbsbq#3c5778"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white text-black px-6 py-2 rounded hover:bg-gray-100 transition"
+  >
+    Read the Paper
+  </a>
+</div>
+
         <div className="mt-8 flex space-x-6">
           <a
             href="https://www.wolframcloud.com/obj/substitutematerials/Published/SL%20cosmocalc%20web%202.nb"
