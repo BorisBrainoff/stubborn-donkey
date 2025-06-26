@@ -15,12 +15,14 @@ export default function HomePage() {
         <h1 className="text-5xl md:text-7xl font-semibold text-white drop-shadow-md">
           Stationary Light Cosmology
         </h1>
-        <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center">
+      
+
+      <div className="mt-10 flex flex-col md:flex-row gap-6 justify-center">
   <a
     href="https://www.wolframcloud.com/obj/substitutematerials/Published/SL%20cosmocalc%20web%202.nb"
     target="_blank"
     rel="noopener noreferrer"
-    className="bg-white text-black px-6 py-2 rounded hover:bg-gray-100 transition"
+    className="px-8 py-3 rounded-2xl text-white border border-white bg-black/40 hover:bg-white/10 backdrop-blur-md transition font-serif text-lg shadow-lg"
   >
     Calculator
   </a>
@@ -28,28 +30,12 @@ export default function HomePage() {
     href="https://www.overleaf.com/read/nnzgyzvtbsbq#3c5778"
     target="_blank"
     rel="noopener noreferrer"
-    className="bg-white text-black px-6 py-2 rounded hover:bg-gray-100 transition"
+    className="px-8 py-3 rounded-2xl text-white border border-white bg-black/40 hover:bg-white/10 backdrop-blur-md transition font-serif text-lg shadow-lg"
   >
     Read the Paper
   </a>
 </div>
 
-        <div className="mt-8 flex space-x-6">
-          <a
-            href="https://www.wolframcloud.com/obj/substitutematerials/Published/SL%20cosmocalc%20web%202.nb"
-            className="px-4 py-2 bg-white text-black rounded hover:bg-gray-300"
-            target="_blank"
-          >
-            Calculator
-          </a>
-          <a
-            href="https://www.overleaf.com/read/nnzgyzvtbsbq#3c5778"
-            className="px-4 py-2 bg-white text-black rounded hover:bg-gray-300"
-            target="_blank"
-          >
-            Read the Paper
-          </a>
-        </div>
       </div>
       <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-90 p-6 flex flex-col items-center md:flex-row md:justify-center md:space-x-12">
         <iframe
