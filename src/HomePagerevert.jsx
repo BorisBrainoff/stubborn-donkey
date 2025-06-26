@@ -14,9 +14,9 @@ export default function HomePage() {
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 pt-40 md:pt-52">
         <h1 className="text-5xl md:text-7xl font-semibold text-white drop-shadow-md">
-          Stationary Light Cosmology
+          Stationary Light Cosmology This is a test change
         </h1>
-        <h2>This is a test change</h2>
+
 
       
 
