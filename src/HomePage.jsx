@@ -18,7 +18,7 @@ export default function HomePage() {
         </h1>
       
 
-     <div className="mt-10 flex flex-col md:flex-row gap-8 justify-center text-white text-lg font-serif backdrop-blur-sm bg-black/30 px-6 py-4 rounded-xl shadow-lg">
+    <div className="mt-10 flex flex-col md:flex-row gap-8 justify-center text-white text-xl font-serif">
   <a
     href="https://www.wolframcloud.com/obj/substitutematerials/Published/SL%20cosmocalc%20web%202.nb"
     target="_blank"
@@ -36,6 +36,7 @@ export default function HomePage() {
     Read the Paper
   </a>
 </div>
+
 
       </div>
       <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-90 p-6 flex flex-col items-center md:flex-row md:justify-center md:space-x-12">
