@@ -39,23 +39,29 @@ export default function HomePage() {
 
 
       </div>
-      <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-90 p-6 flex flex-col items-center md:flex-row md:justify-center md:space-x-12">
-        <iframe
-          className="w-full md:w-1/2 h-48"
-          src="https://www.youtube.com/embed/1-HeLKZ-154"
-          title="1 minute explainer"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-        <iframe
-          className="w-full md:w-1/2 h-48 mt-6 md:mt-0"
-          src="https://www.youtube.com/embed/NND0gmNSrxE"
-          title="record analogy"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+     <footer className="mt-20 pb-16 md:pb-28">
+  <div className="flex flex-col md:flex-row justify-center gap-4 md:gap-8 px-6">
+    <iframe
+      width="360"
+      height="215"
+      src="https://www.youtube.com/embed/1-HeLKZ-154"
+      title="1-minute explainer"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    <iframe
+      width="360"
+      height="215"
+      src="https://www.youtube.com/embed/NND0gmNSrxE"
+      title="record analogy"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</footer>
+
       </div>
     </div>
   );
