@@ -36,6 +36,28 @@ export default function HomePage() {
     Read the Paper
   </a>
 </div>
+<section className="w-full px-6 mt-32 md:mt-48">
+  <h2 className="text-xl md:text-2xl font-semibold text-center mb-8">Watch the Videos</h2>
+  <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+    <iframe
+      className="w-full md:w-[480px] h-[270px]"
+      src="https://www.youtube.com/embed/1-HeLKZ-154"
+      title="1-minute explainer"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+    <iframe
+      className="w-full md:w-[480px] h-[270px]"
+      src="https://www.youtube.com/embed/NND0gmNSrxE"
+      title="Record Analogy"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</section>
+
 
 
       </div>
