@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function HomePage() {
   return (
-    <div className="relative w-full h-screen overflow-hidden font-serif">
+   <section className="mt-20 md:mt-40">
+   <div className="relative w-full h-screen overflow-hidden font-serif">
       <video
         autoPlay
         loop
@@ -15,22 +16,23 @@ export default function HomePage() {
         <h1 className="text-5xl md:text-7xl font-semibold text-white drop-shadow-md">
           Stationary Light Cosmology
         </h1>
+        </section>
       
 
-      <div className="mt-10 flex flex-col md:flex-row gap-6 justify-center">
+     <div className="mt-10 flex flex-col md:flex-row gap-8 justify-center text-white text-lg font-serif backdrop-blur-sm bg-black/30 px-6 py-4 rounded-xl shadow-lg">
   <a
     href="https://www.wolframcloud.com/obj/substitutematerials/Published/SL%20cosmocalc%20web%202.nb"
     target="_blank"
     rel="noopener noreferrer"
-    className="px-8 py-3 rounded-2xl text-white border border-white bg-black/40 hover:bg-white/10 backdrop-blur-md transition font-serif text-lg shadow-lg"
+    className="hover:underline"
   >
-    Calculator
+    SL Calculator
   </a>
   <a
     href="https://www.overleaf.com/read/nnzgyzvtbsbq#3c5778"
     target="_blank"
     rel="noopener noreferrer"
-    className="px-8 py-3 rounded-2xl text-white border border-white bg-black/40 hover:bg-white/10 backdrop-blur-md transition font-serif text-lg shadow-lg"
+    className="hover:underline"
   >
     Read the Paper
   </a>
