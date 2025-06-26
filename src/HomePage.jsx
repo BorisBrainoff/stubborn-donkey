@@ -39,7 +39,7 @@ export default function HomePage() {
 
 
       </div>
-     <footer className="mt-20 pb-16 md:pb-28">
+    <footer className="mt-20 pb-16 md:pb-28">
   <div className="flex flex-col md:flex-row justify-center gap-4 md:gap-8 px-6">
     <iframe
       width="360"
@@ -61,8 +61,6 @@ export default function HomePage() {
     ></iframe>
   </div>
 </footer>
-
-      </div>
     </div>
   );
 }
