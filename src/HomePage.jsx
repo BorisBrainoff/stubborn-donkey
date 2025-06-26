@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function HomePage() {
   return (
-   <section className="mt-20 md:mt-40">
-   <div className="relative w-full h-screen overflow-hidden font-serif">
+  <div className="flex justify-center items-center gap-6 flex-wrap mt-20 md:mt-40">
+
       <video
         autoPlay
         loop
@@ -16,7 +16,6 @@ export default function HomePage() {
         <h1 className="text-5xl md:text-7xl font-semibold text-white drop-shadow-md">
           Stationary Light Cosmology
         </h1>
-        </section>
       
 
      <div className="mt-10 flex flex-col md:flex-row gap-8 justify-center text-white text-lg font-serif backdrop-blur-sm bg-black/30 px-6 py-4 rounded-xl shadow-lg">
