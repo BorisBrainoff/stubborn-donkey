@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: black;
+  color: white;
+}
